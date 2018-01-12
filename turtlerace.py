@@ -7,13 +7,12 @@ goto(-140, 140)
 
 for x in range(14):
     write(x, align='center')
+    speed(10)
     right(90)
     forward(10)
-    for y in xrange(1, 15):
-        pendown()
-        forward(10)
-        penup()
-
+    pendown()
+    forward(150)
+    penup()
     backward(160)
     left(90)
     forward(20)
